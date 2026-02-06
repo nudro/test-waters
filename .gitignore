@@ -45,3 +45,7 @@ vessel_tracking_results/
 
 # Jupyter
 .ipynb_checkpoints/
+
+vessel-detection-gui/node_modules/
+vessel-detection-gui/.vite/
+vessel-detection-gui/dist/

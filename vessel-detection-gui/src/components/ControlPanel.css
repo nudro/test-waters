@@ -1,0 +1,163 @@
+.control-panel {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.control-panel h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.status {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #333;
+  border-radius: 4px;
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.status-item:last-child {
+  margin-bottom: 0;
+}
+
+.status-label {
+  color: #aaa;
+}
+
+.status-value {
+  color: #fff;
+  font-weight: 500;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-tag {
+  background: #4a9eff;
+  color: white;
+}
+
+.btn-tag:hover:not(:disabled) {
+  background: #3a8eef;
+}
+
+.btn-track {
+  background: #10b981;
+  color: white;
+}
+
+.btn-track:hover:not(:disabled) {
+  background: #059669;
+}
+
+.btn-pause {
+  background: #f59e0b;
+  color: white;
+}
+
+.btn-pause:hover:not(:disabled) {
+  background: #d97706;
+}
+
+.instructions {
+  padding: 1rem;
+  background: #333;
+  border-radius: 4px;
+}
+
+.instructions h3 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+
+.instructions ol {
+  padding-left: 1.25rem;
+  color: #aaa;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.instructions li {
+  margin-bottom: 0.5rem;
+}
+
+.instructions strong {
+  color: #fff;
+}
+
+.mode-selection {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #333;
+  border-radius: 4px;
+}
+
+.mode-selection h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.mode-selection .btn {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.btn-all-detections {
+  background: #8b5cf6;
+  color: white;
+}
+
+.btn-all-detections:hover {
+  background: #7c3aed;
+}
+
+.btn-target-vessels {
+  background: #06b6d4;
+  color: white;
+}
+
+.btn-target-vessels:hover {
+  background: #0891b2;
+}
+
+.mode-description {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+  color: #aaa;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.all-detections-mode {
+  margin-bottom: 1.5rem;
+}
+
