@@ -3,6 +3,7 @@ archive/
 datasets/
 media/
 logs/
+models/
 runs/
 test_results/
 
