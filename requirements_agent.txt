@@ -1,0 +1,15 @@
+# Requirements for CV Agent System
+# Install with: pip install -r requirements_agent.txt
+
+# LangChain core
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+langchainhub>=0.1.0
+
+# OpenAI (for API access)
+openai>=1.0.0
+
+# Optional: For better prompt management
+langchain-community>=0.0.20
+
